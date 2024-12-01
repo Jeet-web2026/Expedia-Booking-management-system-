@@ -1,4 +1,4 @@
-# hotel-booking-site
+# Hotel-booking-site
 Booking management system
 
 1. Live search using PHP Mysql and Ajax
