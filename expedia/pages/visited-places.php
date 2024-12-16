@@ -24,7 +24,7 @@ if ($runDataQuery) {
         $_SESSION['clientHotelPrice'] = htmlspecialchars(trim($fetchQuery['hotel_price']));
         $_SESSION['clientHotelActualPrice'] = htmlspecialchars(trim($fetchQuery['hotels_actual_price']));
 
-        $cust_id = $_SESSION['clientSignupid'];
+        $cust_id = $_SESSION['clientTableno'];
         $hotel_name = $_SESSION['clientHotelnmae'];
         $hotel_rating = $_SESSION['clientHotelRating'];
         $hotelavl_from = $_SESSION['hotelAvailabilityFrom'];
